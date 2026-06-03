@@ -1,0 +1,11 @@
+{
+  "name": "sequelize-cli",
+  "version": "6.6.2",
+  "description": "Sequelize CLI for migrations",
+  "main": "lib/sequelize",
+  "scripts": {
+    "migrate": "sequelize db:migrate",
+    "seed": "sequelize db:seed:all",
+    "migrate:undo": "sequelize db:migrate:undo:all"
+  }
+}
